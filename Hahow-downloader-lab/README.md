@@ -12,13 +12,14 @@
 
 ## 📦 專案內容
 
-| 編號                                | 主題          | 說明                                     |
-| ----------------------------------- | ------------- | ---------------------------------------- |
-| [0](0-overview-hahow-downloader.md) | 使用教學      | 簡介整包功能與流程、執行說明             |
-| [1](1-env-setup-note.md)            | .env 設定筆記 | 如何建立環境變數讓程式可控               |
-| [2](2-frontend-hahow-download.md)   | 前端腳本抓取  | 直接用 JS 操作影片頁面，自動抓影片與字幕 |
-| [3](3-backend-hahow-downloader.md)  | Node.js 後端  | 使用 axios + fs 全自動下載並分類儲存     |
-| [4](4-binary-pkg-build.md)          | 打包成執行檔  | 使用 pkg 將 Node.js 程式變成 .exe 執行檔 |
+| 編號                                | 檔案名稱      | 標題                                       | 說明 |
+| ----------------------------------- | ------------- | ------------------------------------------ | ---- |
+| [0](0-overview-hahow-downloader.md) | 使用教學      | 簡介整包功能與流程、執行說明               |
+| [1](1-env-setup-note.md)            | .env 設定筆記 | 如何建立環境變數讓程式可控                 |
+| [2](2-frontend-hahow-download.md)   | 前端腳本抓取  | 直接用 JS 操作影片頁面，自動抓影片與字幕   |
+| [3](3-backend-hahow-downloader.md)  | Node.js 後端  | 使用 axios + fs 全自動下載並分類儲存       |
+| [4](4-binary-pkg-build.md)          | 打包成執行檔  | 使用 pkg 將 Node.js 程式變成 .exe 執行檔   |
+| [5](5-pkg-debug-tips.md)            | pkg 解雷筆記  | 常見 bug、錯誤訊息與雷點集中整理與避坑建議 |
 
 ---
 
