@@ -18,6 +18,7 @@
 | [1](1-env-setup-note.md)            | .env 設定筆記 | 如何建立環境變數讓程式可控               |
 | [2](2-frontend-hahow-download.md)   | 前端腳本抓取  | 直接用 JS 操作影片頁面，自動抓影片與字幕 |
 | [3](3-backend-hahow-downloader.md)  | Node.js 後端  | 使用 axios + fs 全自動下載並分類儲存     |
+| [4](4-binary-pkg-build.md)          | 打包成執行檔  | 使用 pkg 將 Node.js 程式變成 .exe 執行檔 |
 
 ---
 
