@@ -10,24 +10,36 @@
 
 ## 🧭 目錄總覽
 
-| 編號                                | 檔案名稱                 | 中文標題                         | 技術重點                 | 說明備註 |
-| ----------------------------------- | ------------------------ | -------------------------------- | ------------------------ | -------- |
-| [1](1-ajax-cambridge-dictionary.md) | 劍橋字典 AJAX 查詢（上） | fetch + Node.js 基本串接         | 初探 API + DOM 解析      |          |
-| [2](2-node-cambridge-crawler.md)    | 劍橋字典 AJAX 查詢（下） | Node.js + cheerio 爬蟲           | HTML 解析與字典查詢      |          |
-| [3](3-node-cambridge-update-fix.md) | 劍橋字典查詢更新與修正   | 爬蟲結構優化、POST 資料傳遞      | 修正抓不到資料的 bug     |          |
-| [4](4-hahow-downloader-cli.md)      | Hahow 課程下載器 CLI     | Node CLI 工具設計 + dotenv       | 選課章節下載、自動化腳本 |          |
-| [5](5-download-m3u8-ts.md)          | 下載 m3u8 TS 片段        | axios + stream 處理              | 影音分段下載             |          |
-| [6](6-ptt-image-crawler.md)         | PTT 圖片爬蟲             | request + cheerio                | 批次抓取並儲存圖片       |          |
-| [7](7-play-local-video.md)          | 本地影片播放             | Node.js + HTML5 video            | 測試串流與播放           |          |
-| [8](8-send-data-to-html.md)         | 後端數據傳輸到前端       | express + EJS / 靜態檔案輸出     | 後端傳值 → 動態渲染      |          |
-| [9](9-upload-image-api.md)          | 使用 UploadCC 上傳圖片   | FormData + axios                 | 圖片 API 上傳流程        |          |
-| [10](10-login-password-sniffing.md) | 偽裝登入監聽密碼         | express 模擬登入頁               | 資安測試案例             |          |
-| [11](11-receive-ajax-data.md)       | AJAX 傳值接收與處理      | GET / POST 請求解析              | express-body-parser 應用 |          |
-| [12](12-node-utils-summary.md)      | Node.js 工具總結         | fs、path、async、stream、cheerio | 多篇實作中用到的工具整理 |          |
+### 📘 Cambridge-dictionary-lab
 
-| 編號                           | 檔案名稱         | 中文標題                         | 技術重點                 | 說明備註 |
-| ------------------------------ | ---------------- | -------------------------------- | ------------------------ | -------- |
-| [12](12-node-utils-summary.md) | Node.js 工具總結 | fs、path、async、stream、cheerio | 多篇實作中用到的工具整理 |          |
+| 編號 | 檔案連結                                                                                                           | 中文標題                 | 技術重點                 | 備註                 |
+| ---- | ------------------------------------------------------------------------------------------------------------------ | ------------------------ | ------------------------ | -------------------- |
+| \[1] | [Cambridge-dictionary-lab/1-ajax-cambridge-dictionary.md](Cambridge-dictionary-lab/1-ajax-cambridge-dictionary.md) | 劍橋字典 AJAX 查詢（上） | fetch + Node.js 基本串接 | 初探 API + DOM 解析  |
+| \[2] | [Cambridge-dictionary-lab/2-node-cambridge-crawler.md](Cambridge-dictionary-lab/2-node-cambridge-crawler.md)       | 劍橋字典 AJAX 查詢（下） | Node.js + cheerio 爬蟲   | HTML 解析與字典查詢  |
+| \[3] | [Cambridge-dictionary-lab/3-node-cambridge-update-fix.md](Cambridge-dictionary-lab/3-node-cambridge-update-fix.md) | 劍橋查詢更新與修正       | 結構優化 + POST 傳遞     | 修正抓不到資料的 bug |
+
+---
+
+### 📘 Downloader-lab
+
+| 編號 | 檔案連結                                                                             | 中文標題             | 技術重點              | 備註               |
+| ---- | ------------------------------------------------------------------------------------ | -------------------- | --------------------- | ------------------ |
+| \[4] | [Downloader-lab/4-hahow-downloader-cli.md](Downloader-lab/4-hahow-downloader-cli.md) | Hahow 課程下載器 CLI | CLI 工具設計 + dotenv | 自動選課、章節處理 |
+| \[5] | [Downloader-lab/5-download-m3u8-ts.md](Downloader-lab/5-download-m3u8-ts.md)         | 下載 m3u8 TS 片段    | axios + stream 處理   | 影音分段下載       |
+| \[6] | [Downloader-lab/6-ptt-image-crawler.md](Downloader-lab/6-ptt-image-crawler.md)       | PTT 圖片爬蟲         | request + cheerio     | 批次抓圖           |
+
+---
+
+### 📘 NodeJS-basic-lab
+
+| 編號  | 檔案連結                                                                               | 中文標題               | 技術重點                 | 備註          |
+| ----- | -------------------------------------------------------------------------------------- | ---------------------- | ------------------------ | ------------- |
+| \[7]  | [NodeJS-basic-lab/7-play-local-video.md](NodeJS-basic-lab/7-play-local-video.md)       | 本地影片播放           | HTML5 video + Node.js    | 播放測試      |
+| \[8]  | [NodeJS-basic-lab/8-send-data-to-html.md](NodeJS-basic-lab/8-send-data-to-html.md)     | 傳值到前端 HTML        | express + ejs / 靜態輸出 | 模板動態渲染  |
+| \[9]  | [NodeJS-basic-lab/9-ajax-receive-note.md](NodeJS-basic-lab/9-ajax-receive-note.md)     | AJAX 傳值接收與處理    | express-body-parser 使用 | POST/GET 處理 |
+| \[10] | [NodeJS-basic-lab/10-uploadcc-uploader.md](NodeJS-basic-lab/10-uploadcc-uploader.md)   | 使用 UploadCC 上傳圖片 | axios + FormData         | multipart API |
+| \[11] | [NodeJS-basic-lab/11-password-listener.md](NodeJS-basic-lab/11-password-listener.md)   | 偽裝登入監聽密碼       | express 假頁登入         | 資安實驗用    |
+| \[12] | [NodeJS-basic-lab/12-html-data-transfer.md](NodeJS-basic-lab/12-html-data-transfer.md) | HTML 與後端資料交換    | express + fs 搭配輸出    | 跨檔案傳值    |
 
 ---
 
